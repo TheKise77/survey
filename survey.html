@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Survey Forum</title>
+
+<link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    
+<h1 id="title">Survey Form</h1>
+
+<p id="description">Stinky CSS Certification</p>
+
+<div>
+<form id="survey-form">
+    <fieldset name="Information">
+        <legend>Information</legend>
+    <label id="name-label" name="name-label">Full Name: <input id="name" type="text" placeholder="Name Here" required> </label>
+
+<label id="email-label" name="email-label">Email Address: <input id="email" type="email" placeholder="JohnSmith@email.com" required> </label>
+
+<label id="number-label" name="number-label">Age: <input type="number" id="number" min="18" max="99" placeholder="21"> </label>
+
+
+<label id="dropdown-label" name="dropdown-label">Region: <select id="dropdown">
+    <option value="">(Select One)</option>
+    <option value="1">USA</option>
+    <option value="2">Non-USA</option>
+</select> </label>
+
+
+<label id="radio-button"><input type="radio" name="name"  value="radio" checked> aaaaa</label>
+<label id="radio-button"><input type="radio" name="name" value="radio"> AAA</label>
+
+</fieldset></form>
+
+    <form id="rating">
+        <fieldset>
+<legend>Feedback</legend>
+<p>How would you rate this page?</p>
+<label id="checkbox"><input type="checkbox" id="check" value="check">Amazing </label>
+<label id="checkbox"><input type="checkbox" id="check" value="check">Okay</label>
+<label id="checkbox"><input type="checkbox" id="check" value="check">Gross</label>
+
+<textarea name="" id=""  rows="5" cols="50" placeholder="Lalalala"></textarea>
+</fieldset>
+
+<input type="submit" id="submit" value="Confirm">
+</form>
+</div>
+
+</form>
+</body>
+<footer>Still not a fan of CSS >:( [4/30/2025]</footer>
+</html>

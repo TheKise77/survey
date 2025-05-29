@@ -1,0 +1,69 @@
+body {
+  background-color: #1b1b32; 
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  width: 100%;
+  margin: 0;
+ text-align: center;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  }
+
+  div{ 
+    display: inline-block;
+    background-color: rgb(42, 42, 64); 
+    padding: 1%;
+  }
+
+input, textarea  {
+  background-color: #1b1b32;
+  color: white;
+}
+
+textarea {
+  display: block;
+}
+
+fieldset {
+ margin-bottom: 15px;
+}
+
+legend {
+  text-align: left;
+}
+
+#radio-button {
+ text-align: center;
+}
+
+#checkbox {
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: #3b3b4f;
+  border: 1px solid white;
+  width: 50%;
+  align-self: center;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+footer {
+  font-family: 'Times New Roman', Times, serif; 
+  padding: 30px;
+}
